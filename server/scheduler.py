@@ -95,7 +95,9 @@ class DeviceState:
         # Given a time, determine if each device should be on or off
 
         curr_mins = lt.tm_hour * 60 + lt.tm_min
-        curr_state = copy.deepcopy(start_state)
+        curr_state = {}
+        for d,s in start_state.items():
+            curr_state[d] = {"ON":1,"OFF":0}[s[0]]
 
         assert 0 <= curr_mins < 1440, 'Minutes per day invalid in {0}'.format(self.__class__.__name__)
 

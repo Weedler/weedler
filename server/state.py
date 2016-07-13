@@ -62,7 +62,6 @@ class BoardState:
         assert (type(pin) is int) and (pin in cls._board_gpio_pins), "Invalid pin value {0} in {1}".format(pin,
                                                                                                            cls.__name__)
         assert state in [0, 1], "Unexpected pin state {0} in {1}.".format(state, cls.__name__)
-        print("Setting {0} to {1}".format(pin, state), file=sys.stderr)
         GPIO.setup(pin, GPIO.OUT, initial=state)
         GPIO.output(pin, state)
 

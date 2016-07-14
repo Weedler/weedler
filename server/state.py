@@ -1,6 +1,7 @@
 import os
 import sys
 import RPi.GPIO as GPIO
+from mapper import Mapper
 
 # Use RPi board numbering throughout
 GPIO.setmode(GPIO.BOARD)
@@ -26,8 +27,8 @@ class BoardState:
                    27, 0, 1, 24, 28, 29, 3, 4, 5, 6, 25, 2]
 
     # The kernel export uses BCM pin numbering. Make sure pins are exported.
-    for p in _board_gpio_pins:
-        bcm = _board_to_bcm[p]
+    for p in range(1, 8):
+        bcm = _board_to_bcm[Mapper.pin_for_socket(p)]
         path = "/sys/class/gpio/gpio{0}".format(bcm)
         if not os.path.isdir(path):
             f = open("/sys/class/gpio/export", "w")
@@ -38,30 +39,27 @@ class BoardState:
 
     @classmethod
     def set_pin_mode(cls, pin, mode):
-        assert (type(pin) is int) and (pin in cls._board_gpio_pins), "Invalid pin value {0} in {1}".format(pin,cls.__name__)
-        assert mode in [GPIO.IN, GPIO.OUT], "Invalid pin mode {0} in {1}".format(mode, cls.__name__)
+        assert (type(pin) is int) and (pin in cls._board_gpio_pins), "Invalid pin value {0}".format(pin)
+        assert mode in [GPIO.IN, GPIO.OUT], "Invalid pin mode {0}".format(mode)
         GPIO.setup(pin, mode)
 
     @classmethod
     def get_pin_state(cls, pin):
-        assert (type(pin) is int) and (pin in cls._board_gpio_pins), "Invalid pin value {0} in {1}".format(pin,
-                                                                                                           cls.__name__)
+        assert (type(pin) is int) and (pin in cls._board_gpio_pins), "Invalid pin value {0}".format(pin)
         bcm_pin = cls._board_to_bcm[pin]
         path = "/sys/class/gpio/gpio{0}/value".format(bcm_pin)
-        assert os.path.isfile(path), "GPIO pin {0} (BCM) {1} (Board) is not exported in {2}.".format(bcm_pin, pin,
-                                                                                                     cls.__name__)
+        assert os.path.isfile(path), "GPIO pin {0} (BCM) {1} (Board) is not exported".format(bcm_pin, pin)
         f = open(path)
         val = f.readline()
         f.close()
         ret = int(val)
-        assert ret in [0, 1], "Unexpected pin state {0} in {1}.".format(ret, cls.__name__)
+        assert ret in [0, 1], "Unexpected pin state {0}".format(ret)
         return ret
 
     @classmethod
     def set_pin_state(cls, pin, state):
-        assert (type(pin) is int) and (pin in cls._board_gpio_pins), "Invalid pin value {0} in {1}".format(pin,
-                                                                                                           cls.__name__)
-        assert state in [0, 1], "Unexpected pin state {0} in {1}.".format(state, cls.__name__)
+        assert (type(pin) is int) and (pin in cls._board_gpio_pins), "Invalid pin value {0}".format(pin)
+        assert state in [0, 1], "Unexpected pin state {0}".format(state)
         GPIO.setup(pin, GPIO.OUT, initial=state)
         GPIO.output(pin, state)
 

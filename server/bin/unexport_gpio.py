@@ -4,7 +4,7 @@ import os
 import sys
 
 # The kernel export uses BCM pin numbering. Make sure pins are exported.
-for p in [17,18,27,22,23,24,25,4,2,3,8,7,10,9,11,14,15,5,6,13,19,26,12,16,20,21,0,1]:
+for p in [4,5,6,12,13,16,17,18,19,20,21,22,23,24,25,26,27]:
     path = "/sys/class/gpio/gpio{0}".format(p);
     if os.path.isdir(path):
         f = open("/sys/class/gpio/unexport", "w")

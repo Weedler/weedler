@@ -1,0 +1,211 @@
+{
+    "name": "Standard Day - Vegetative",
+    "logFrequency": "5",
+    "imageFrequency": "60",
+    "schedule": [
+        {
+            "time": "00:00",
+            "LIGHT01": "OFF",
+            "FAN01": "OFF",
+            "FAN02": "OFF"
+        },
+        {
+            "time": "00:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "00:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "01:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "01:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "02:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "02:25",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "03:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "03:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "04:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "04:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "05:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "05:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "06:00",
+            "LIGHT01": "ON",
+            "FAN01": "ON",
+            "FAN02": "ON"
+        },
+        {
+            "time": "06:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "06:25",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "07:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "07:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "08:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "08:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "09:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "09:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "10:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "10:25",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "11:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "11:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "12:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "12:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "13:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "13:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "14:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "14:25",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "15:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "15:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "16:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "16:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "17:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "17:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "18:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "18:25",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "19:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "19:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "20:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "20:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "21:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "21:16",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "22:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "22:25",
+            "PUMP01": "OFF"
+        },
+        {
+            "time": "23:15",
+            "PUMP01": "ON"
+        },
+        {
+            "time": "23:16",
+            "PUMP01": "OFF"
+        }
+    ]
+}

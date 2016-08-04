@@ -32,7 +32,7 @@ class DeviceState:
     def dumps(self):
 
         s = self._schedule
-        print('Name: {0}\nVersion: {1}'.format(s['name'], s['version']))
+        print('Name: {0}'.format(s['name']))
 
         # get a unique list of devices mentioned in the schedule
         devices = list(set([j for t in s['schedule'] for j in list(t.keys()) if j != 'time']))

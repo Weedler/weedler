@@ -27,8 +27,9 @@ class BoardState:
                    27, 0, 1, 24, 28, 29, 3, 4, 5, 6, 25, 2]
 
     # The kernel export uses BCM pin numbering. Make sure pins are exported.
-    for p in range(1, 8):
+    for p in range(1, 9):
         bcm = _board_to_bcm[Mapper.pin_for_socket(p)]
+#        GPIO.setup(Mapper.pin_for_socket(p), GPIO.OUT)
         path = "/sys/class/gpio/gpio{0}".format(bcm)
         if not os.path.isdir(path):
             f = open("/sys/class/gpio/export", "w")

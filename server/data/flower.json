@@ -1,5 +1,5 @@
 {
-    "name": "Standard Day - Seedlings",
+    "name": "Standard Day - Flower Start",
     "logFrequency": "5",
     "imageFrequency": "60",
     "schedule": [
@@ -55,7 +55,7 @@
         },
 	{
 	    "time": "06:00",
-	    "PUMP02": "ON"
+            "PUMP02": "ON"
         },
 	{
 	    "time": "06:05",
@@ -87,7 +87,9 @@
         },
 	{
 	    "time": "10:00",
-	    "PUMP02": "ON"
+	    "PUMP02": "ON",
+	    "LIGHT01": "ON",
+	    "FAN01": "ON"
         },
 	{
 	    "time": "10:05",
@@ -95,7 +97,6 @@
         },
 	{
 	    "time": "11:00",
-	    "LIGHT01": "ON",
 	    "PUMP01": "ON"
         },
 	{
@@ -184,6 +185,7 @@
         },
 	{
 	    "time": "22:00",
+	    "LIGHT01": "OFF",
 	    "PUMP02": "ON"
         },
 	{
@@ -192,7 +194,6 @@
         },
 	{
 	    "time": "23:00",
-	    "LIGHT01": "OFF",
 	    "PUMP01": "ON"
         },
 	{

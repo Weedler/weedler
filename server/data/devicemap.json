@@ -1,8 +1,8 @@
 {
-    "devices": {
-        "LIGHT01": "2",        
-	"FAN01": "4",
-	"PUMP01": "6",
-	"PUMP02": "8"
-    }
+  "devices": {
+    "LIGHT01": "2",
+    "FAN01": "4",
+    "PUMP01": "6",
+    "PUMP02": "8"
+  }
 }

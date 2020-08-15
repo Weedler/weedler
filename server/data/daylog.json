@@ -1,68 +1,68 @@
 [
-    {
-        "date" : "2016-07-22 21:05:00",
-        "schedule" : "Standard Day - Vegetative Growth",
-        "readings" : {
-            "TEMP01" : "27",
-            "HUMIDITY01" : "45",
-            "LIGHT01" : "235"
-        },
-        "devices" : {
-            "LIGHT01" : "ON",
-            "LIGHT02" : "ON",
-            "PUMP01" : "OFF",
-            "FAN01" : "ON",
-            "FAN02" : "ON"
-        },
-        "image" : "01-20160722210500-snapshot.jpg"
+  {
+    "date": "2016-07-22 21:05:00",
+    "schedule": "Standard Day - Vegetative Growth",
+    "readings": {
+      "TEMP01": "27",
+      "HUMIDITY01": "45",
+      "LIGHT01": "235"
     },
-    {
-        "date" : "2016-07-22 21:10:00",
-        "schedule" : "Standard Day - Vegetative Growth",
-        "readings" : {
-            "TEMP01" : "27",
-            "HUMIDITY01" : "44",
-            "LIGHT01" : "233"
-        },
-        "devices" : {
-            "LIGHT01" : "ON",
-            "LIGHT02" : "ON",
-            "PUMP01" : "OFF",
-            "FAN01" : "ON",
-            "FAN02" : "ON"
-        }
+    "devices": {
+      "LIGHT01": "ON",
+      "LIGHT02": "ON",
+      "PUMP01": "OFF",
+      "FAN01": "ON",
+      "FAN02": "ON"
     },
-    {
-        "date" : "2016-07-22 21:15:00",
-        "schedule" : "Standard Day - Vegetative Growth",
-        "readings" : {
-            "TEMP01" : "28",
-            "HUMIDITY01" : "44",
-            "LIGHT01" : "78"
-        },
-        "devices" : {
-            "LIGHT01" : "ON",
-            "LIGHT02" : "ON",
-            "PUMP01" : "OFF",
-            "FAN01" : "ON",
-            "FAN02" : "ON"
-        },
-        "image" : "01-20160722211500-snapshot.jpg"
+    "image": "01-20160722210500-snapshot.jpg"
+  },
+  {
+    "date": "2016-07-22 21:10:00",
+    "schedule": "Standard Day - Vegetative Growth",
+    "readings": {
+      "TEMP01": "27",
+      "HUMIDITY01": "44",
+      "LIGHT01": "233"
     },
-    {
-        "date" : "2016-07-22 21:20:00",
-        "schedule" : "Standard Day - Vegetative Growth",
-        "readings" : {
-            "TEMP01" : "29",
-            "HUMIDITY01" : "44",
-            "LIGHT01" : "75"
-        },
-        "devices" : {
-            "LIGHT01" : "ON",
-            "LIGHT02" : "ON",
-            "PUMP01" : "OFF",
-            "FAN01" : "ON",
-            "FAN02" : "ON"
-        }
+    "devices": {
+      "LIGHT01": "ON",
+      "LIGHT02": "ON",
+      "PUMP01": "OFF",
+      "FAN01": "ON",
+      "FAN02": "ON"
     }
+  },
+  {
+    "date": "2016-07-22 21:15:00",
+    "schedule": "Standard Day - Vegetative Growth",
+    "readings": {
+      "TEMP01": "28",
+      "HUMIDITY01": "44",
+      "LIGHT01": "78"
+    },
+    "devices": {
+      "LIGHT01": "ON",
+      "LIGHT02": "ON",
+      "PUMP01": "OFF",
+      "FAN01": "ON",
+      "FAN02": "ON"
+    },
+    "image": "01-20160722211500-snapshot.jpg"
+  },
+  {
+    "date": "2016-07-22 21:20:00",
+    "schedule": "Standard Day - Vegetative Growth",
+    "readings": {
+      "TEMP01": "29",
+      "HUMIDITY01": "44",
+      "LIGHT01": "75"
+    },
+    "devices": {
+      "LIGHT01": "ON",
+      "LIGHT02": "ON",
+      "PUMP01": "OFF",
+      "FAN01": "ON",
+      "FAN02": "ON"
+    }
+  }
 ]

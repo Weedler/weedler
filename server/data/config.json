@@ -1,13 +1,13 @@
 {
-    "camera" : {
-        "device" : "/dev/video",
-        "format" : "jpeg",
-        "quality" : "100",
-        "bannerPosition" : "bottom",
-        "showBanner" : true,
-        "flipHorizontal" : false,
-        "flipVertical" : false,
-        "rotate" : "0",
-        "command" : "fswebcam -v -d /dev/video0 -D 1 -r 1280x960 --top-banner --banner-colour '#cc00cc00' --text-colour '#ffffff' --line-colour '#00cc00' --no-shadow --jpeg 100 --timestamp 'YYYY-MM-DD HH:MI:SS' --title 'Mixed Grow on Flood Hydro' --subtitle 'Day 21 - Standard Day, Vegetative Growth' --info 'Weedler' --font ':14' webshot.jpg"
-    }
+  "camera": {
+    "device": "/dev/video",
+    "format": "jpeg",
+    "quality": "100",
+    "bannerPosition": "bottom",
+    "showBanner": true,
+    "flipHorizontal": false,
+    "flipVertical": false,
+    "rotate": "0",
+    "command": "fswebcam -v -d /dev/video0 -D 1 -r 1280x960 --top-banner --banner-colour '#cc00cc00' --text-colour '#ffffff' --line-colour '#00cc00' --no-shadow --jpeg 100 --timestamp 'YYYY-MM-DD HH:MI:SS' --title 'Mixed Grow on Flood Hydro' --subtitle 'Day 21 - Standard Day, Vegetative Growth' --info 'Weedler' --font ':14' webshot.jpg"
+  }
 }

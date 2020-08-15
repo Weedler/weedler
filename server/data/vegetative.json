@@ -1,205 +1,205 @@
 {
-    "name": "Standard Day - Seedlings",
-    "logFrequency": "5",
-    "imageFrequency": "60",
-    "schedule": [
-        {
-            "time": "00:00",
-            "LIGHT01": "OFF",
-            "FAN01": "OFF",
-	    "PUMP01": "OFF",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "00:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "01:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "01:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "02:00",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "02:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "03:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "03:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "04:00",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "04:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "05:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "05:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "06:00",
-	    "PUMP02": "ON",
-	    "LIGHT01": "ON",
-	    "FAN01": "ON"
-        },
-	{
-	    "time": "06:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "07:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "07:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "08:00",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "08:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "09:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "09:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "10:00",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "10:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "11:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "11:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "12:00",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "12:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "13:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "13:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "14:00",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "14:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "15:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "15:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "16:00",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "16:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "17:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "17:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "18:00",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "18:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "19:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "19:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "20:00",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "20:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "21:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "21:05",
-	    "PUMP01": "OFF"
-        },
-	{
-	    "time": "22:00",
-	    "PUMP02": "ON"
-        },
-	{
-	    "time": "22:05",
-	    "PUMP02": "OFF"
-        },
-	{
-	    "time": "23:00",
-	    "PUMP01": "ON"
-        },
-	{
-	    "time": "23:05",
-	    "PUMP01": "OFF"
-        }
-    ]
+  "name": "Standard Day - Seedlings",
+  "logFrequency": "5",
+  "imageFrequency": "60",
+  "schedule": [
+    {
+      "time": "00:00",
+      "LIGHT01": "OFF",
+      "FAN01": "OFF",
+      "PUMP01": "OFF",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "00:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "01:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "01:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "02:00",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "02:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "03:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "03:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "04:00",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "04:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "05:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "05:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "06:00",
+      "PUMP02": "ON",
+      "LIGHT01": "ON",
+      "FAN01": "ON"
+    },
+    {
+      "time": "06:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "07:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "07:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "08:00",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "08:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "09:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "09:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "10:00",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "10:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "11:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "11:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "12:00",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "12:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "13:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "13:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "14:00",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "14:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "15:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "15:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "16:00",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "16:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "17:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "17:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "18:00",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "18:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "19:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "19:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "20:00",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "20:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "21:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "21:05",
+      "PUMP01": "OFF"
+    },
+    {
+      "time": "22:00",
+      "PUMP02": "ON"
+    },
+    {
+      "time": "22:05",
+      "PUMP02": "OFF"
+    },
+    {
+      "time": "23:00",
+      "PUMP01": "ON"
+    },
+    {
+      "time": "23:05",
+      "PUMP01": "OFF"
+    }
+  ]
 }
                                                                                                                                                                                                 
